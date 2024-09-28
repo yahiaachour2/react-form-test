@@ -1,0 +1,21 @@
+.select-container {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .select {
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    background-color: #ffffff;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .select:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 0.1rem #06b6d4;
+    border: none;
+  }
+  

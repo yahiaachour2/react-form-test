@@ -1,15 +1,13 @@
-import React, { useState } from 'react';
 import './App.css';
 
-const App: React.FC = () => {
+import React from 'react';
 
-  return (
-    <div className="App">
-      <div className="container">
-        <h1>Contact Form</h1>
-      </div>
-    </div>
-  );
-};
+import ContactForm from './pages/ContactForm';
+
+const App: React.FC = () => (
+  <div className="App">
+    <ContactForm />
+  </div>
+);
 
 export default App;
